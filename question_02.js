@@ -5,11 +5,11 @@ function car(brand){
     this.brand=brand,
     this.newSpeed=0;
     this.accelerate=function (speed){
-        newSpeed=newSpeed+speed;
-       return newSpeed
+        this.newSpeed=this.newSpeed+speed;
+       return this.newSpeed
     }
-    this.printSpeed=function (newSpeed){
-        console.log(newSpeed);
+    this.printSpeed=function (){
+        console.log(`speed of car ${this.newSpeed}`);
     }
 }
 let car1=new car("Honda");
