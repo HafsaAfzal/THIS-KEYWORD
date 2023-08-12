@@ -3,6 +3,7 @@
 const person ={
     name:"Hafsa",
     greet:function(){
-        console.log(`Hello! ${person.name}`)
+        console.log(`Hello! ${this.name}`)
     }
 }
+person.greet();
