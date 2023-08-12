@@ -7,4 +7,4 @@ const obj={
         console.log(`Are you ready ${this.nam} to play`);
     }
 }
-obj.this.play();
+obj.play();
